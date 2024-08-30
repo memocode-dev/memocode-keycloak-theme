@@ -4,6 +4,7 @@ import type { KcContext } from "./KcContext";
 import { useI18n } from "./i18n";
 import DefaultPage from "keycloakify/account/DefaultPage";
 import Template from "keycloakify/account/Template";
+import "../index.css";
 
 export default function KcPage(props: { kcContext: KcContext }) {
     const { kcContext } = props;
